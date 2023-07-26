@@ -1,33 +1,23 @@
-# Meta-frontend-development-professional-certificate
+# Little lemon restaurant online rservation system
 
-Little Lemon 🍋
+## Description
+Welcome to the Little Lemon Restaurant Online Reservation System! 
+This is a capstone project for the Meta Front End Development course, 
+developed using React hooks, HTML, and CSS.
 
-Welcome to the Little Lemon Restaurant website repository. This project was created as a part of the Meta Frontend Developer course. It's built using React and offers a stylish interface for users who want to explore the restaurant's menu and make reservations.
+## Features
+* View restaurant information including overview, special menu items, and testimonials
+* View available reservation times for a chosen date and party size
+* Make a reservation by selecting a desired time slot and entering contact information
+* Clean UI design
+* Responsive design for optimal viewing on various devices
 
-Website Preview
+## Technologies Used
+This project was developed using the following technologies: \
+![HTML BADGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS BADGE](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REACT BADGE](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Live Preview
-Check out the live version of the website! View Live Demo
-
-Features
-Smooth navigation through the pages.
-Explore the restaurant's menu in style.
-Make a reservation using an interactive form.
-Receive a reservation confirmation through a popup.
-Built with React for a modern and interactive user experience.
-Available Scripts
-In the project directory, you can run:
-
-npm install
-The npm install command is used to install all the dependencies defined in your project's package.json file.
-
-npm start
-Runs the app in development mode.
-Open http://localhost:3000 to view it in your browser.
-
-npm test
-Launches the test runner in the interactive watch mode. It runs all the tests for the application and provides feedback on their status.
-
-The test files are typically located in a directory named tests or have a .test.js or .spec.js extension.
-
-Make sure to write comprehensive tests to ensure the stability and correctness of the application.
+- HTML: Used for the structure of the web pages
+- CSS: Used for styling the web pages
+- React hooks: Used to manage state and handle user interactions
