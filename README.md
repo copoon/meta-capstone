@@ -1,23 +1,26 @@
-# Little lemon restaurant online rservation system
+# META Front End Developer Capstone Final Project
 
-## Description
-Welcome to the Little Lemon Restaurant Online Reservation System! 
-This is a capstone project for the Meta Front End Development course, 
-developed using React hooks, HTML, and CSS.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-* View restaurant information including overview, special menu items, and testimonials
-* View available reservation times for a chosen date and party size
-* Make a reservation by selecting a desired time slot and entering contact information
-* Clean UI design
-* Responsive design for optimal viewing on various devices
+## Background
+Little Lemon is a fictional restaraurant that wants to integrate their business into the online platform. Currently, Little Lemon website is only able to show website's background and do a mockup of reserving a table. 
+ 
+## Process
+This final project includes everything we learnt in the Front End Developer career path by META. That includes learning HTML/CSS, the React framework, testing, creating a UI/UX and others. 
 
-## Technologies Used
-This project was developed using the following technologies: \
-![HTML BADGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS BADGE](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![REACT BADGE](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+For this FinPro, I started by creating a UI/UX for Little Lemon's website and also the reserving tab. While the Little Lemon's style guide have been provided, we were still given the freedom to style it after a UI/UX research (user persona & user journey).
 
-- HTML: Used for the structure of the web pages
-- CSS: Used for styling the web pages
-- React hooks: Used to manage state and handle user interactions
+After being done with the Hi-Fi, I start to create the components and merging the local styles from Figma to React. I start by doing the mainpage then continued with the `/book` route where we can reserve a table.
+
+For the `/book` route, in the table reservation, we had to implement a time checker provided with the date of reservation using useContext which would call a mock-up API to search for the possible time. You could check the implementation in `/src/Booking.tsx`.
+
+## Technology Used  
+1. React
+2. Typescript
+3. React-router
+4. React-collapse
+5. Jest
+
+### Links
+Certificate: [Coursera](https://www.coursera.org/account/accomplishments/certificate/TXU2LBRUESMA)
+Figma file: [Figma](https://www.figma.com/file/ny3xk3XTjIHER8Gq7DA7EH/Principles-of-UX-and-UI---Coursera?node-id=2%3A665&t=lk0JdaW6Mpw6iRHN-1)
